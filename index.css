@@ -1,0 +1,109 @@
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9360119047619048) 15%,
+    rgba(0, 0, 0, 0.7819502801120448) 24%,
+    rgba(0, 0, 0, 1) 33%,
+    rgba(0, 0, 0, 0.7875525210084033) 43%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 0.8127626050420168) 56%,
+    rgba(0, 0, 0, 1) 65%,
+    rgba(0, 0, 0, 0.7819502801120448) 73%,
+    rgba(0, 0, 0, 1) 83%
+  );
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h2 {
+  text-align: center;
+  color: lightgray;
+  text-shadow: midnightblue 10px 10px 25px;
+}
+
+h1 {
+  text-align: center;
+  color: lightgray;
+  text-shadow: midnightblue 10px 10px 25px;
+}
+
+.box {
+  width: 25vw;
+  height: 25vw;
+}
+
+.torre {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 25vw;
+  height: 25vw;
+  border: solid 4px black;
+  box-shadow: midnightblue 10px 10px 25px;
+}
+
+#p1 {
+  background-color: blue;
+  border: black dashed 5px;
+  height: 10%;
+  width: 90%;
+}
+
+#p2 {
+  background-color: red;
+  border: black dashed 5px;
+  height: 10%;
+  width: 75%;
+}
+
+#p3 {
+  background-color: orange;
+  border: black dashed 5px;
+  height: 10%;
+  width: 60%;
+}
+
+.popUpDiv {
+  width: 30vw;
+  height: 30vw;
+  background-color: lightgray;
+  border: solid 4px black;
+  border-radius: 4%;
+  position: absolute;
+  left: 480px;
+  top: 120px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.h2span {
+  font-size: 50px;
+}
+
+.resultCount {
+  font-size: 35px;
+  color: red;
+}
+
+.restartBtn {
+  width: 10vw;
+  height: 2vw;
+  border: solid 4px black;
+  box-shadow: midnightblue 10px 10px 25px;
+}
+
+.restartBtn:hover {
+  background-color: darkgray;
+}
+
+.restartBtn:active {
+  background-color: black;
+  color: white;
+}
